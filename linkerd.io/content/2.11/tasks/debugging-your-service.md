@@ -37,7 +37,13 @@ looks like the voting deployment is failing some requests! A failure in a depend
 deployment may be exactly what is causing the errors that web is returning.
 
 Let's scroll a little further down the page, we'll see a live list of all
-traffic that is incoming to *and* outgoing from `web`. This is interesting:
+traffic that is incoming to *and* outgoing from `web`. 
+
+{{< note >}}The traffic information comes from the Tap component. 
+If you're following immediately from the Getting Started guide, 
+you may need to restart the pods for this to be setup correctly.{{< /note >}}
+
+This is interesting:
 
 {{< fig src="/images/debugging/web-top.png" title="Top" >}}
 
