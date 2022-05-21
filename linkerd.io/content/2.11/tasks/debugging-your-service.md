@@ -61,4 +61,5 @@ other configuration!
 At this point, we have everything required to get the endpoint fixed and restore
 the overall health of our applications.
 
-[code]: https://github.com/BuoyantIO/emojivoto/blob/67faa83af33db647927946a672fc63ab7ce869aa/emojivoto-voting-svc/api/api.go#L21
+[code]: https://github.com/BuoyantIO/emojivoto/blob/31561846a678f95e15dbb3e4dca880799be67f93/emojivoto-voting-svc/api/api.go#L34
+
